@@ -36,8 +36,10 @@ public class HomeController {
 		boolean a= (Boolean) hs.getAttribute("loginstate");
 
 		System.out.println("로그상태 : "+a);
-		return "main";
 		
+		
+		return "main";
+		  
 	}
 	@RequestMapping(value = "/main")
 	public String kk2() {
